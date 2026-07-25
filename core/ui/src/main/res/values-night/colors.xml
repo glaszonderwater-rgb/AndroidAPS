@@ -10,7 +10,7 @@
          surfaces. Mirrors how colorPrimary was used as a light accent in night mode. -->
     <color name="lumenPrimary">#8A8CFF</color>
     <color name="lumenPrimaryDark">#0B0B14</color>
-    <color name="lumenAccent">#A97BEB</color>
+    <color name="lumenAccent">#B388FF</color>
     <color name="mdtp_line_dark">#808080</color>
     <color name="colorLightGray">#d8d8d8</color>
     <color name="cardColorBackground">#212121</color>
