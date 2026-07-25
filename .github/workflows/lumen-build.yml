@@ -8,6 +8,12 @@ name: Build Lumen APK
 # The APK is uploaded as a downloadable GitHub artifact on the workflow run.
 
 on:
+  # Auto-build on every push to the theme branch. push/pull_request triggers run
+  # from the branch itself, so this works even though the workflow file is not on
+  # the default branch (unlike workflow_dispatch, which requires the default branch).
+  push:
+    branches:
+      - ui/lumen-theme
   workflow_dispatch:
     inputs:
       buildVariant:
@@ -68,6 +74,7 @@ jobs:
       - name: Set build variant vars
         run: |
           BUILD_VARIANT="${{ github.event.inputs.buildVariant }}"
+          if [ -z "$BUILD_VARIANT" ]; then BUILD_VARIANT="fullRelease"; fi
           echo "BUILD_VARIANT=$BUILD_VARIANT" >> $GITHUB_ENV
           VARIANT_FLAVOR=$(echo "$BUILD_VARIANT" | sed -E 's/(Release|Debug)$//' | tr '[:upper:]' '[:lower:]')
           VARIANT_TYPE=$(echo "$BUILD_VARIANT" | grep -oE '(Release|Debug)$' | tr '[:upper:]' '[:lower:]')
