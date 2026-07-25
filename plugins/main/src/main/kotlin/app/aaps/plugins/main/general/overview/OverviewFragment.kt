@@ -856,6 +856,8 @@ class OverviewFragment : DaggerFragment(), View.OnClickListener, OnLongClickList
             _binding ?: return@runOnUiThread
             binding.infoLayout.bg.text = profileUtil.fromMgdlToStringInUnits(lastBg?.recalculated)
             binding.infoLayout.bg.setTextColor(lastBgColor)
+            // Lumen: soft glow behind the BG value in its status color
+            binding.infoLayout.bg.setShadowLayer(24f, 0f, 0f, lastBgColor)
             trendArrow?.let { binding.infoLayout.arrow.setImageResource(it.directionToIcon()) }
             binding.infoLayout.arrow.visibility = (trendArrow != null).toVisibilityKeepSpace()
             binding.infoLayout.arrow.setColorFilter(lastBgColor)
