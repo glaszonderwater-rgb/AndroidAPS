@@ -20,6 +20,12 @@
         android:layout_height="wrap_content"
         android:focusable="true"
         android:gravity="center"
+        android:background="@drawable/bg_lumen_tile"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:layout_margin="2dp"
         tools:ignore="UseCompoundDrawables">
 
         <ImageView
@@ -42,7 +48,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:focusable="true"
-        android:gravity="center">
+        android:gravity="center"
+        android:background="@drawable/bg_lumen_tile"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:layout_margin="2dp">
 
         <ImageView
             android:layout_width="28dp"
@@ -73,6 +85,12 @@
         android:layout_height="wrap_content"
         android:focusable="true"
         android:gravity="center"
+        android:background="@drawable/bg_lumen_tile"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:layout_margin="2dp"
         tools:ignore="UseCompoundDrawables">
 
         <ImageView
@@ -95,7 +113,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:focusable="true"
-        android:gravity="center">
+        android:gravity="center"
+        android:background="@drawable/bg_lumen_tile"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:layout_margin="2dp">
 
         <ImageView
             android:layout_width="28dp"
