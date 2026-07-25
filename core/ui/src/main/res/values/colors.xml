@@ -5,6 +5,12 @@
     <color name="colorPrimary">#3378C5</color>
     <color name="colorPrimaryDark">#676767</color>
     <color name="colorAccent">#40bbaa</color>
+
+    <!-- Lumen theme accent (light) - indigo/violet. Only wired to the theme's
+         accent slots; backgrounds, text and semantic colors are untouched. -->
+    <color name="lumenPrimary">#5B57D6</color>
+    <color name="lumenPrimaryDark">#4A46C0</color>
+    <color name="lumenAccent">#7C5CD6</color>
     <color name="mdtp_line_dark">#808080</color>
     <color name="colorLightGray">#d8d8d8</color>
     <color name="cardColorBackground">#CBCBCB</color>

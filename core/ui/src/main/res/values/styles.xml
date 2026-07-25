@@ -2,10 +2,10 @@
 <resources xmlns:ns2="http://schemas.android.com/tools">
 
     <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
-        <!---Example light theme colors -->
-        <item name="colorPrimary">@color/colorPrimary</item>
+        <!---Lumen theme accent (light) -->
+        <item name="colorPrimary">@color/lumenPrimary</item>
         <item name="colorOnPrimary">@color/aaps_theme_light_onPrimary</item>
-        <item name="colorSecondary">@color/aaps_theme_light_secondary</item>
+        <item name="colorSecondary">@color/lumenAccent</item>
         <item name="colorOnSecondary">@color/aaps_theme_light_onSecondary</item>
         <item name="colorError">@color/aaps_theme_light_error</item>
         <item name="colorOnError">@color/aaps_theme_light_onError</item>
@@ -13,8 +13,8 @@
         <item name="colorOnBackground">@color/aaps_theme_light_onBackground</item>
         <item name="colorSurface">@color/aaps_theme_light_surface</item>
         <item name="colorOnSurface">@color/aaps_theme_light_onSurface</item>
-        <item name="colorPrimaryDark">@color/aaps_theme_light_primary</item>
-        <item name="colorAccent">@color/aaps_theme_light_secondary</item>
+        <item name="colorPrimaryDark">@color/lumenPrimaryDark</item>
+        <item name="colorAccent">@color/lumenAccent</item>
         <item name="dialogTitleBackground">@color/dialog_title_background</item>
         <item name="dialogTitleColor">@color/dialog_title_color</item>
         <item name="dialogTitleIconTint">@color/dialog_title_icon_tint</item>
